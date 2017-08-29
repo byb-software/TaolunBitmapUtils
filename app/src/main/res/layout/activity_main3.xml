@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="com.byb.taolunbitmaputils.Main3Activity">
+
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   由于加载的ImageView过多会OOM,所以7-9的头像放在此处（下部分图片为调整背景颜色）"
+        android:padding="10dp"
+        android:textSize="15dp"
+        />
+
+
+    <ImageView
+    android:id="@+id/wx7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/ic_launcher"
+    android:layout_below="@+id/tx3"
+    android:layout_marginTop="20dp"
+    android:padding="10dp"
+    />
+
+    <ImageView
+        android:id="@+id/wx8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/tx3"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/wx7"
+        android:padding="10dp"
+        />
+    <ImageView
+        android:id="@+id/wx9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/tx3"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/wx8"
+        android:padding="10dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/wxb7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/wx7"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/wxb8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/wx8"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/wxb7"
+        android:padding="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/wxb9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/wx9"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/wxb8"
+        android:padding="10dp"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="com.byb.taolunbitmaputils.MainActivity">
+
+
+<TextView
+    android:id="@+id/tx1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="仿QQ群头像示例(右边的为改变背景) :"
+    android:textSize="20dp"
+    android:padding="10dp"
+    />
+
+
+            <ImageView
+                android:id="@+id/qq1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_below="@+id/tx1"
+                />
+            <ImageView
+                android:id="@+id/qq2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_below="@+id/qq1"
+                />
+             <ImageView
+                 android:id="@+id/qq3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@mipmap/ic_launcher"
+                 android:layout_below="@+id/qq2"
+            />
+            <ImageView
+                android:id="@+id/qq4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_below="@+id/qq3"
+                />
+            <ImageView
+                android:id="@+id/qq5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_below="@+id/qq4"
+                />
+
+
+
+            <ImageView
+                android:id="@+id/qqb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_below="@+id/tx1"
+                android:layout_toRightOf="@+id/qq1"
+                android:paddingLeft="20dp"
+                />
+            <ImageView
+                android:id="@+id/qqb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_below="@+id/qqb1"
+                android:layout_toRightOf="@+id/qq2"
+                android:paddingLeft="20dp"
+                />
+            <ImageView
+                android:id="@+id/qqb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_below="@+id/qqb2"
+                android:layout_toRightOf="@+id/qq3"
+                android:paddingLeft="20dp"
+                />
+            <ImageView
+                android:id="@+id/qqb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_below="@+id/qqb3"
+                android:layout_toRightOf="@+id/qq4"
+                android:paddingLeft="20dp"
+                />
+            <ImageView
+                android:id="@+id/qqb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_below="@+id/qqb4"
+                android:layout_toRightOf="@+id/qq5"
+                android:paddingLeft="20dp"
+                />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerInParent="true"
+    android:text="点击跳转到微信头像显示的页面"
+    android:padding="5dp"
+    android:textColor="#e697e6"
+    android:background="#8ee6e9"
+    android:onClick="click"
+    />
+</RelativeLayout>

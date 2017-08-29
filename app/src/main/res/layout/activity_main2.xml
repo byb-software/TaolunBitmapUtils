@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="com.byb.taolunbitmaputils.Main2Activity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="仿微信讨论组头像示例（下部分图片为调整背景颜色）"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+        <ImageView
+            android:id="@+id/wx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:layout_below="@+id/tx2"
+            />
+        <ImageView
+            android:id="@+id/wx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:layout_below="@+id/tx2"
+            android:layout_toRightOf="@+id/wx1"
+            />
+        <ImageView
+            android:id="@+id/wx3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:layout_below="@+id/tx2"
+            android:layout_toRightOf="@+id/wx2"
+            />
+
+
+        <ImageView
+            android:id="@+id/wx4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:layout_below="@+id/wx1"
+            />
+        <ImageView
+            android:id="@+id/wx5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:layout_below="@+id/wx2"
+            android:layout_toRightOf="@+id/wx4"
+            />
+        <ImageView
+            android:id="@+id/wx6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:layout_below="@+id/wx3"
+            android:layout_toRightOf="@+id/wx5"
+            />
+
+
+
+
+        <ImageView
+            android:id="@+id/wxb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/wx4"
+            />
+        <ImageView
+            android:id="@+id/wxb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/wx5"
+            android:layout_toRightOf="@+id/wxb1"
+            />
+        <ImageView
+            android:id="@+id/wxb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/wx6"
+            android:layout_toRightOf="@+id/wxb2"
+            />
+
+        <ImageView
+            android:id="@+id/wxb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:layout_below="@+id/wxb1"
+            />
+        <ImageView
+            android:id="@+id/wxb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:layout_below="@+id/wxb2"
+            android:layout_toRightOf="@+id/wxb4"
+            />
+        <ImageView
+            android:id="@+id/wxb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:layout_below="@+id/wxb3"
+            android:layout_toRightOf="@+id/wxb5"
+            />
+
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="点击跳转到微信7-9的头像"
+       android:layout_below="@+id/wxb6"
+       android:layout_marginTop="20dp"
+       android:layout_centerHorizontal="true"
+       android:onClick="clicks"
+       />
+</RelativeLayout>
+
+</ScrollView>
